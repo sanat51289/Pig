@@ -101,7 +101,7 @@ public class MainActivity extends Activity {
 	private String checkWinner() {
 		int score1 = Integer.parseInt(mPlayerScore_1.getText().toString());
 		int score2 = Integer.parseInt(mPlayerScore_2.getText().toString());
-		if(score1 >= 10 && score2 < 10){
+		if(score1 >= 100 && score2 < 100){
 			return "player1";
 		}else if(score2 >= 100 && score1 < 100) {
 			return "player2";
