@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pig</string>
+    <string name="action_settings">Settings</string>
+    <string name="dice_value">1</string>
+    <string name="Player_1">0</string>
+    <string name="Player_2">0</string>
+    <string name="hold">Hold</string>
+    <string name="roll">Roll</string>
+    <string name="score">Score</string>
+    <string name="you_rolled_one">You rolled one, you get 0 points. Now pass the turn.</string>
+
+</resources>
