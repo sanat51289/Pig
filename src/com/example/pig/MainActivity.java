@@ -103,7 +103,7 @@ public class MainActivity extends Activity {
 		int score2 = Integer.parseInt(mPlayerScore_2.getText().toString());
 		if(score1 >= 10 && score2 < 10){
 			return "player1";
-		}else if(score2 >= 10 && score1 < 10) {
+		}else if(score2 >= 100 && score1 < 100) {
 			return "player2";
 		} else{
 			return null;
